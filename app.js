@@ -56,8 +56,8 @@ import DocketData from './routes/Dockets/DocketData.js'
 import GetDocno from './routes/Dockets/GetDocno.js'
 import RechequePrint from "./routes/Cheques/ChequeReprint.js";
 import RecashPrint from "./routes/Cash/CashReprint.js"
-import DeleteCustomer from "../Server/routes/customer/DeleteCustomer.js"
-import UpdateCustomer from "../Server/routes/customer/UpdateCustomer.js"
+import DeleteCustomer from "./routes/customer/DeleteCustomer.js"
+import UpdateCustomer from "./routes/customer/UpdateCustomer.js"
 
 
 // User routes path
