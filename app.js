@@ -50,7 +50,7 @@ import UpdateChequeSlips from './routes/UpdateChequeSlip.js';
 import ChequeCollection from './routes/Cheques/ChequeCollection.js';
 import SearchByDateCheque from './routes/Cheques/SearchbyDateCheque.js';
 import Customerdata from './routes/customer/CustomerData.js'
-import CreateCustomerBank from './routes/customer/CreateCustomerBank.js'
+// import CreateCustomerBank from './routes/customer/CreateCustomerBank.js'
 import GetCustomerBank from './routes/customer/GetCustomerBank.js'
 import DocketData from './routes/Dockets/DocketData.js'
 import GetDocno from './routes/Dockets/GetDocno.js'
@@ -74,7 +74,7 @@ app.use(UserBankRouter);
 app.use(GetFirm);
 app.use(BankLinking);
 app.use(findbyid);
-app.use(Getfirmslip);
+// app.use(Getfirmslip);
 app.use(getbankslip);
 app.use(GetBranches);
 app.use(GetAccount);
@@ -100,7 +100,7 @@ app.use(UpdateChequeSlips);
 app.use(ChequeCollection);
 app.use(SearchByDateCheque);
 app.use(Customerdata);
-app.use(CreateCustomerBank);
+// app.use(CreateCustomerBank);
 app.use(GetCustomerBank);
 app.use(CreateChequeSlip)
 app.use(DocketData)
