@@ -24,7 +24,7 @@ import UserBankRouter from "./routes/UserBankRouter.js";
 import GetFirm from "./routes/GetFirm.js";
 import BankLinking from "./routes/BankLinking.js";
 import findbyid from "./routes/findbyid.js";
-import Getfirmslip from "./routes/GetfirmSlip.js";
+// import Getfirmslip from "./routes/GetfirmSlip.js";
 import getbankslip from "./routes/GetBankSlip.js";
 import GetBranches from "./routes/GetBranches.js";
 import GetAccount from "./routes/GetAccount.js";
