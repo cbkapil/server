@@ -3,6 +3,7 @@ const app = express();
 import mongoose from "mongoose";
 import corsHeaders from "./middleware/cors.js";
 import cors from 'cors'
+const PORT = process.env.PORT || 8000
 const CONNECTION_STRING =
   process.env.CONNECTION_STRING ||
   "mongodb+srv://Shanky:1234@expensedetails.ib4xj.mongodb.net/CheckMaker?retryWrites=true&w=majority";
@@ -129,6 +130,6 @@ mongoose
   });
 
 //Server Port Running
-app.listen(8000, () => {
-  console.log("server is running http://localhost:8000");
+app.listen(PORT, () => {
+  console.log(`server is running http://localhost:${PORT}`);
 });
