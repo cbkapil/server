@@ -13,10 +13,10 @@ import bodyParser from "body-parser";
  app.use(corsHeaders);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-//  app.use(cors({
-//   origin: '*',  // Allow requests from any domain
-//    optionsSuccessStatus: 200
-//  }));
+  app.use(cors({
+   origin: '*',  // Allow requests from any domain
+    optionsSuccessStatus: 200
+  }));
 
 //middleware
 app.use(express.json());
