@@ -9,14 +9,14 @@ const CONNECTION_STRING =
   "mongodb+srv://Shanky:1234@expensedetails.ib4xj.mongodb.net/CheckMaker?retryWrites=true&w=majority";
 import bodyParser from "body-parser";
 
-app.options('*',corsHeaders);
-app.use(corsHeaders);
+// app.options('*',corsHeaders);
+// app.use(corsHeaders);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-// app.use(cors({
-//   origin: '*',  // Allow requests from any domain
-//   optionsSuccessStatus: 200
-// }));
+ app.use(cors({
+  origin: '*',  // Allow requests from any domain
+   optionsSuccessStatus: 200
+ }));
 
 //middleware
 app.use(express.json());
